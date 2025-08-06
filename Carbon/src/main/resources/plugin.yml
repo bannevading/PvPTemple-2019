@@ -1,0 +1,4 @@
+depend: [Cobalt]
+main: server.pvptemple.Carbon
+name: Carbon
+version: ${project.version}

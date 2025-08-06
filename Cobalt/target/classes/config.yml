@@ -1,0 +1,24 @@
+# The default name our server will be given, unless there is a plugin that forcefully overrides it
+server-data:
+ default-name: "server"
+ nice-name-global-chat: true
+ private-server: false
+
+join-messages: true
+
+reboot-times: # Automatically reboot at these times (shutdowns commence 5 minutes after these time(s))
+- "00:55:00"
+- "08:55:00"
+
+# The IP/URL for our WebAPI and our security key to access it
+api:
+ url: "149.56.141.252:1741"
+ key: "&gRHy9rN7u&6rucsS9A^pFfFVDu6R&3W"
+
+# The SQL credentials to ensure secure connection to the MySQL database
+mysql:
+ address: "127.0.0.1"
+ port: 3306
+ username: "root"
+ password: "password"
+ database: "database"
